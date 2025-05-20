@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+
+    <!-- -------------------------------Navbar---------------------------- -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand col-md-4 ms-5" href="#"><span class="logo-img"><img src="logo-img.png" alt=""></span>Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-md-6 me-5" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ---------------------------------Home------------------------------ -->
+
+    <div class="container home-container d-lg-flex d-xl-flex justify-content-around mt-5">
+        <div class="intro w-100 " data-aos-duration="800" data-aos="fade-right">
+            <div>
+                <h2 data-aos-duration="800" data-aos="fade-down">Hello, It's Me</h2>
+                <h1>Vijay Chaudhary</h1>
+                <h2 data-aos-duration="800" data-aos="fade-right">And I'm a <span class="typed-text" style="color: aqua;"></span></h2><br><br>
+                <p data-aos-duration="800" data-aos="fade-up">I'm a beginner full stack web developer.<br> expertise is to create Frontend Website and Backend like API's and many more...</p>
+                <div class="social">
+                    <a href="https://github.com/VijayChaudhary2557/"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/vijay-kant-singh-019524315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/vijaychaudhary2557/"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <!-- <button download class="btn btn-about mt-4 ms-2">Download CV</button> -->
+                <a href="cv.pdf" download class="btn btn-about mt-4 ms-2"> Download CV </a>
+            </div>
+        </div>
+        <div class="my-image w-100 mt-3 mb-3 text-xl-end text-lg-end text-center" data-aos-duration="800" data-aos="fade-left">
+            <img src="my-img.jpg" class="text-center" alt="">
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------About----------------------------------- -->
+
+    <div id="about-us" class="container about-container d-xl-flex d-lg-flex flex-row-reverse">
+        <div class="content about-content" data-aos-duration="800" data-aos="fade-right">
+            <div>
+                <h1>About<span style="color: aqua;">Me</span></h1> <br>
+                <h3>Fullstack Developer!</h3> <br>
+                <p>I am a skilled full stack web developer with a passion for creating captivating website designs and bringing them to life through frontend development. As a beginner who has quickly honed my skills, I've developed various projects that showcase my capabilities and dedication to excellence.
+                    <br>
+                    I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and user-friendly websites. My career has equipped me with a deep understanding of API creation and backend development, ensuring that my websites are not only aesthetically pleasing but also secure and robust.
+                    <br>
+                    Although I have a strong preference for backend development due to my expertise, my proficiency in frontend development allows me to create comprehensive full stack websites. I believe that a well-designed website should seamlessly blend visual appeal with functionality and security.
+                </p>
+            </div>
+        </div>
+        <div class="my-img2 " data-aos-duration="800" data-aos="fade-left">
+            <img src="img2.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- ----------------------------------Skills------------------------ -->
+    <div id="skill">
+        <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="fade-up">
+            <h1 class="text-center">My <span style="color: aqua;">Skills</span></h1>
+        </div>
+
+        <div class="container" data-aos-duration="800" data-aos="zoom-in">
+            <div class="d-flex justify-content-around flex-wrap">
+                <button class="my-skills-btn">HTML</button>
+                <button class="my-skills-btn">CSS</button>
+                <button class="my-skills-btn">Bootstrap</button>
+                <button class="my-skills-btn">JavaScript</button>
+                <button class="my-skills-btn">React</button>
+                <button class="my-skills-btn">Node.js</button>
+                <button class="my-skills-btn">Express.js</button>
+                <button class="my-skills-btn">PHP</button>
+                <button class="my-skills-btn">Laravel</button>
+                <button class="my-skills-btn">Wordpress</button>
+                <button class="my-skills-btn">C</button>
+                <button class="my-skills-btn">Java</button>
+                <button class="my-skills-btn">Python</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!-- ------------------------Projects---------------------------------- -->
+
+
+    <div id="projects" data-aos-duration="800" data-aos="fade-up">
+        <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="">
+            <h1 class="text-center">My <span style="color: aqua;">Projects</span></h1>
+        </div>
+    </div>
+
+
+    <div class="project-cards container row row-cols-1 row-cols-md-3 g-5 m-auto">
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/444767336-95235906-7657-4bb4-ae9b-eeaea1c4c654.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQyNzksIm5iZiI6MTc0NzY3Mzk3OSwicGF0aCI6Ii8xNTU4NjYzMDEvNDQ0NzY3MzM2LTk1MjM1OTA2LTc2NTctNGJiNC1hZTliLWVlYWVhMWM0YzY1NC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNjU5MzlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mM2NjMWE5YTFmMzAxYjM3ZWFmNzUwZGFmYmRmOWU4MGQxMTBhMzgwZWNmNjc5Yzc1ZjA0MzI3YWY0OTc2MzE1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.7FBbvNbSH1acJmre-1f46GOEPOO5a8M2XR2Kn5Jw1m4" class="card-img-top" alt="Project 1">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Tomato (Food delivery Website)</h5>
+                    <p class="card-text flex-grow-1">A responsive Food Delivery web application built using Mern Stack</p>
+                    <a href="https://tomato-gk93.onrender.com/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/444765406-7198c24f-53fa-4191-80d1-ab3a4dc97663.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQzMzcsIm5iZiI6MTc0NzY3NDAzNywicGF0aCI6Ii8xNTU4NjYzMDEvNDQ0NzY1NDA2LTcxOThjMjRmLTUzZmEtNDE5MS04MGQxLWFiM2E0ZGM5NzY2My5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNzAwMzdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNGNhZmMzZDE3NDJkYjQ1NjZkOWZmMmFkOTgyMGQwMGFhNjgwNjE5NjMwYjdiNGY2MTRlMGI0MGZiM2NhNGI0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.lgDBy_4caL9kamqFLrmH8OzgjDW4Ssz8tFQMEcO1xac" class="card-img-top" alt="Project 2">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Wonderlust (Airbnb basic clone website)</h5>
+                    <p class="card-text">A responsive Rent Villa Web application built using NodeJs and ExpressJs (Use EJS).</p>
+                    <a href="https://wonderlust-1-agdt.onrender.com/listings" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/354437334-3d2b5f86-187c-4166-b598-1704d7931157.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQ0NjYsIm5iZiI6MTc0NzY3NDE2NiwicGF0aCI6Ii8xNTU4NjYzMDEvMzU0NDM3MzM0LTNkMmI1Zjg2LTE4N2MtNDE2Ni1iNTk4LTE3MDRkNzkzMTE1Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNzAyNDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YmFiMmE4YjlmNWMwN2Q0ZDg2MzYyMzlkNDVlZGI0YTE3NzJmNjdjNjZhNDk5MDFjOTI0NjgzZmQxNzI3OGIyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.9A4QiHxK2Ce8Lymw8-cpJZLNRaRx7EQ2i1G3ero4WFc" class="card-img-top" alt="Project 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Mini Blog (Course Tutorial Website)</h5>
+                    <p class="card-text">A responsive course tutioal website blog built using Laravel Framework.</p>
+                    <a href="https://github.com/VijayChaudhary2557/Blog" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/354270844-6ec7cad1-71eb-4a34-b725-69b9f338f5cd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQ1MzMsIm5iZiI6MTc0NzY3NDIzMywicGF0aCI6Ii8xNTU4NjYzMDEvMzU0MjcwODQ0LTZlYzdjYWQxLTcxZWItNGEzNC1iNzI1LTY5YjlmMzM4ZjVjZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNzAzNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OGIzYTRlMmE4YWI1MmEwOThkZjhlMWMwMDE1NmUwNzgwMzQ3N2MzNmQ2ZjllMWY0ZmIxZTE3NTYxMDA3NWIxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZDzCSJmiPAT85iB74H_Fn-4VxHYr6y2aGmwfS6PlXYo" class="card-img-top" alt="Project 1">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Todo List</h5>
+                    <p class="card-text">A basic Todo List web application built with Core PHP and MySQL.</p>
+                    <a href="https://todo-list-by-php-bootstrap.onrender.com/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/444789942-b5967416-8dda-4043-beb1-e27fe22ecd20.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQ2MTAsIm5iZiI6MTc0NzY3NDMxMCwicGF0aCI6Ii8xNTU4NjYzMDEvNDQ0Nzg5OTQyLWI1OTY3NDE2LThkZGEtNDA0My1iZWIxLWUyN2ZlMjJlY2QyMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNzA1MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMTk2MGZiOTFjYzNlYWZmMjU5ZjBiYjA5ZjM0NzljNGNiYzZhYzA3ZTk4YTRhMTE2ZmFlMzA3ODU1ODc4ZjhjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.G8DqU3-UNSV2nIE9VRqk6nTH5T-C6xfzp1d4OmjaOgs" class="card-img-top" alt="Project 2">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Login Logout System</h5>
+                    <p class="card-text">A Login-logout System built using Core PHP and MySQL. It include sucure login , logout system.</p>
+                    <a href="https://login-logout-in-php.onrender.com/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/445248434-d513d627-d4ac-441e-8366-16059d8a20c1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc2NzQ3NDAsIm5iZiI6MTc0NzY3NDQ0MCwicGF0aCI6Ii8xNTU4NjYzMDEvNDQ1MjQ4NDM0LWQ1MTNkNjI3LWQ0YWMtNDQxZS04MzY2LTE2MDU5ZDhhMjBjMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOVQxNzA3MjBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NDc4OWI0YTJjYTE5ZTI0YjRjNzQxOTBmODNkYmU3NDA5NTlhMzdmZGZiZjVkYWZjM2JmODU1YmQyYjVmZjhiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JCsfPcc2DCYFL5lsdFxt9C8RDIPoSMZlPlZyg_Rt150" class="card-img-top" alt="Project 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Math Quize Game</h5>
+                    <p class="card-text">A Maths quize game built using HTML, CSS and Core JavaScript.</p>
+                    <a href="https://vijaychaudhary2557.github.io/Math-Quiz-Game/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/354254504-c3a72759-f1cb-45bc-8416-5f1135646bbf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3MTU3NTIsIm5iZiI6MTc0NzcxNTQ1MiwicGF0aCI6Ii8xNTU4NjYzMDEvMzU0MjU0NTA0LWMzYTcyNzU5LWYxY2ItNDViYy04NDE2LTVmMTEzNTY0NmJiZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyMFQwNDMwNTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jOWI3ZDJmMTM4Y2JkMWNiNTkyMWQyMTIwMjk4NjZjNTk1YzMxOWE0N2VhNjIzZGZhZTc2NzhiY2EzMGQxNDg2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.RXtoUT8dfqGj3pZvx86ym7-b_ieEKko1KnNgx54pUC0" class="card-img-top" alt="Project 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Sudoku Game</h5>
+                    <p class="card-text">A Sudoku game generator and solver built using HTML, CSS and Core JavaScript.</p>
+                    <a href="https://vijaychaudhary2557.github.io/Sudoku-Game/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/445421255-4e8693ed-0cb5-4601-9ff6-8c652a08f6d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3MTYwMDYsIm5iZiI6MTc0NzcxNTcwNiwicGF0aCI6Ii8xNTU4NjYzMDEvNDQ1NDIxMjU1LTRlODY5M2VkLTBjYjUtNDYwMS05ZmY2LThjNjUyYTA4ZjZkNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyMFQwNDM1MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NDE0OTQ2MTVhZWVhY2E2ZDI4MWI3OWU4OTM4M2VlZTUzNGNmZThlMDA3OTAwZjk5MjNlMWJlZWRjNGE0NGVlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p0iroB-oTdN095PFXNxjU8uarKFJtq9uPVRVMbvIZ1M" class="card-img-top" alt="Project 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Tic-Tac-Toe</h5>
+                    <p class="card-text">A Maths quize game built using HTML, CSS and Core JavaScript.</p>
+                    <a href="https://private-user-images.githubusercontent.com/155866301/445421255-4e8693ed-0cb5-4601-9ff6-8c652a08f6d6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3MTYwMDYsIm5iZiI6MTc0NzcxNTcwNiwicGF0aCI6Ii8xNTU4NjYzMDEvNDQ1NDIxMjU1LTRlODY5M2VkLTBjYjUtNDYwMS05ZmY2LThjNjUyYTA4ZjZkNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyMFQwNDM1MDZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT04NDE0OTQ2MTVhZWVhY2E2ZDI4MWI3OWU4OTM4M2VlZTUzNGNmZThlMDA3OTAwZjk5MjNlMWJlZWRjNGE0NGVlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.p0iroB-oTdN095PFXNxjU8uarKFJtq9uPVRVMbvIZ1M" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="items col" data-aos-duration="800" data-aos="zoom-in">
+            <div class="card project-card h-100 d-flex flex-column">
+                <img src="https://private-user-images.githubusercontent.com/155866301/354255857-11139dfb-d216-4446-a4b5-13dc2019fe29.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc3MTYxOTYsIm5iZiI6MTc0NzcxNTg5NiwicGF0aCI6Ii8xNTU4NjYzMDEvMzU0MjU1ODU3LTExMTM5ZGZiLWQyMTYtNDQ0Ni1hNGI1LTEzZGMyMDE5ZmUyOS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUyMFQwNDM4MTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kNzRmMGM5NzUzMDM4MDNmOTNjMzNjMmVmNDQzZWFlN2UyZmI4ZDdhZGU0M2NkYTEwZGUzM2U3ODA1ZTU0MzNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.34tR4yzH1BVxp4lpWImVsRP1BvC04EEbbWRAds8UGeE" class="card-img-top" alt="Project 3">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Quize Test Series</h5>
+                    <p class="card-text">A quize test series built using HTML, CSS and Core JavaScript with timer and score result.</p>
+                    <a href="https://vijaychaudhary2557.github.io/Quiz-Test-Series/" class="btn mt-auto card-btn card-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----------------------------------------Contact---------------------------------- -->
+
+
+    <div id="projects" data-aos-duration="800" data-aos="fade-up">
+        <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="">
+            <h1 class="text-center mt-5 mb-5">Contact <span style="color: aqua;">Me</span></h1>
+        </div>
+    </div>
+
+    <div class="container w-50 contact-container" data-aos-duration="800" data-aos="zoom-in">
+        <h1 style="font-size: 35px; margin-top: 30px;">Let's Work Together</h1>
+        <p style="font-size: 20px; margin-top: 30px;">If you would like to work with me or contact me or have any questions please contact me by filling out this form. You can also contact me through mail or call on given below number. You can also follow me on my Instagram, Facebook and Github profiles to get updates.</p>
+
+        <div class="mt-5">
+            <i class='bx bxs-send' style="color: aqua; font-size: 20px;"></i><contact class="h5"> vijaychaudhary1400@gmail.com</contact>
+        </div>
+        <div class="mt-3">
+            <i class='bx bxs-phone-call' style="color: aqua; font-size: 20px;"></i><contact class="h5"> 7818994402</contact>
+        </div>
+        <div class="social mt-3">
+            <a href="https://github.com/VijayChaudhary2557/"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/vijaychaudhary2557/"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+
+    <button class="top btn bx bx-up-arrow-alt" onclick="myFun()"></button>
+
+    <footer>
+        <div class="text-center p-3 mt-5" style="background-color: rgba(0, 0, 0, 0.2);">
+            <span class="year h5"></span>
+            <a class="navbar-brand col-md-4 ms-5" href="#"><span class="logo-img"><img src="logo-img.png" alt=""></span>Portfolio</a>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+          AOS.init();
+    </script>
+</body>
+</html>
