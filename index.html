@@ -16,6 +16,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="script.js"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 </head>
 <body>
 
@@ -45,6 +50,9 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#certificates">Certificates</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -54,7 +62,7 @@
 
     <!-- ---------------------------------Home------------------------------ -->
 
-    <div class="container home-container d-lg-flex d-xl-flex justify-content-around mt-5">
+    <section class="container home-container d-lg-flex d-xl-flex justify-content-around mt-5">
         <div class="intro w-100 " data-aos-duration="800" data-aos="fade-right">
             <div>
                 <h2 data-aos-duration="800" data-aos="fade-down">Hello, It's Me</h2>
@@ -67,18 +75,18 @@
                     <a href="https://www.instagram.com/vijaychaudhary2557/"><i class='bx bxl-instagram'></i></a>
                 </div>
                 <!-- <button download class="btn btn-about mt-4 ms-2">Download CV</button> -->
-                <a href="cv.pdf" download class="btn btn-about mt-4 ms-2"> Download CV </a>
+                <a href="CV.pdf" download class="btn btn-about mt-4 ms-2"> Download CV </a>
             </div>
         </div>
         <div class="my-image w-100 mt-3 mb-3 text-xl-end text-lg-end text-center" data-aos-duration="800" data-aos="fade-left">
             <img src="my-img.jpg" class="text-center" alt="">
         </div>
-    </div>
+    </section>
 
 
     <!-- -------------------------------------About----------------------------------- -->
 
-    <div id="about" class="container about-container d-xl-flex d-lg-flex flex-row-reverse">
+    <section id="about" class="container about-container d-xl-flex d-lg-flex flex-row-reverse">
         <div class="content about-content" data-aos-duration="800" data-aos="fade-right">
             <div>
                 <h1>About<span style="color: aqua;">Me</span></h1> <br>
@@ -94,10 +102,10 @@
         <div class="my-img2 " data-aos-duration="800" data-aos="fade-left">
             <img src="img2.jpg" alt="">
         </div>
-    </div>
+    </section>
 
     <!-- ----------------------------------Skills------------------------ -->
-    <div id="skills">
+    <section id="skills">
         <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="fade-up">
             <h1 class="text-center">My <span style="color: aqua;">Skills</span></h1>
         </div>
@@ -120,17 +128,17 @@
             </div>
         </div>
         
-    </div>
+    </section>
 
 
     <!-- ------------------------Projects---------------------------------- -->
 
 
-    <div id="projects" data-aos-duration="800" data-aos="fade-up">
+    <section id="projects" data-aos-duration="800" data-aos="fade-up">
         <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="">
             <h1 class="text-center">My <span style="color: aqua;">Projects</span></h1>
         </div>
-    </div>
+    </section>
 
 
     <div class="project-cards container row row-cols-1 row-cols-md-3 g-5 m-auto">
@@ -235,14 +243,51 @@
     </div>
 
 
+    <!-- ----------------------------------------Certificate------------------------------ -->
+
+    <section id="certificates">
+        <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="fade-up">
+            <h1 class="text-center">My <span style="color: aqua;">Certificates</span></h1>
+        </div>
+
+        <!-- Do code for slider -->
+         <div class="container mb-5" data-aos="zoom-in">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            
+              <!-- Slide 1 -->
+              <div class="swiper-slide">
+                <img src="/FullStackCertificate.jpg" class="img-fluid rounded shadow" alt="Certificate 1">
+              </div>
+          
+              <!-- Slide 2 -->
+              <div class="swiper-slide">
+                <img src="/HacathonCertificate.jpg" class="img-fluid rounded shadow" alt="Certificate 2">
+              </div>
+          
+              <!-- Slide 3 -->
+              <div class="swiper-slide">
+                <img src="/CCertificate.jpg" class="img-fluid rounded shadow" alt="Certificate 3">
+              </div>
+          
+              <!-- Add more slides as needed -->
+            </div>
+        
+            <!-- Pagination (dots) -->
+            <div class="swiper-pagination mt-3"></div>
+          </div>
+        </div>
+        
+    </section>
+
     <!-- ----------------------------------------Contact---------------------------------- -->
 
 
-    <div id="contact" data-aos-duration="800" data-aos="fade-up">
+    <section id="contact" style="margin-top: 10%" data-aos-duration="800" data-aos="fade-up">
         <div class="skill mt-5 mb-5" data-aos-duration="800" data-aos="">
             <h1 class="text-center mt-5 mb-5">Contact <span style="color: aqua;">Me</span></h1>
         </div>
-    </div>
+    </section>
 
     <div class="container w-75 contact-container" data-aos-duration="800" data-aos="zoom-in">
         <h1 style="font-size: 35px; margin-top: 30px;">Let's Work Together</h1>
@@ -263,7 +308,7 @@
 
     <button class="top btn bx bx-up-arrow-alt" onclick="myFun()"></button>
 
-    <footer>
+    <footer style="margin-top: 10%;">
         <div class="text-center p-3 mt-5" style="background-color: rgba(0, 0, 0, 0.2);">
             <span class="year h5"></span>
             <a class="navbar-brand col-md-4 ms-5" href="#"><span class="logo-img"><img src="logo-img.png" alt=""></span>Portfolio</a>
@@ -271,6 +316,47 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    effect: "slide",
+    grabCursor: true,
+  });
+</script>
+
+<script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const sections = document.querySelectorAll("section");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        window.addEventListener("scroll", () => {
+          let scrollPos = window.scrollY || document.documentElement.scrollTop;
+
+          sections.forEach((section) => {
+            const offsetTop = section.offsetTop - 100;
+            const offsetBottom = offsetTop + section.offsetHeight;
+
+            if (scrollPos >= offsetTop && scrollPos < offsetBottom) {
+              navLinks.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === "#" + section.id) {
+                  link.classList.add("active");
+                }
+              });
+            }
+          });
+        });
+      });
+    </script>
+
 
 </body>
 </html>

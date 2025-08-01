@@ -104,7 +104,10 @@ nav {
     color: white;
     box-shadow: #0ef 0px 0px 4px 1px;
 }
-
+.active {
+    color: aqua !important;
+    text-shadow: aqua 0 1px 8px;
+}
 .nav-link:hover {
     color: aqua !important;
     text-shadow: aqua 0 1px 8px;
@@ -264,4 +267,18 @@ nav {
 
 .home-container {
     padding: 130px 0;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  object-fit: contain;
 }
